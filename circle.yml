@@ -6,10 +6,6 @@ deployment:
     commands: 
       - $DOCKER_HUB_TRIGGER
 
-notify:
-  webhooks:
-    - url: https://hooks.slack.com/services/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
-
 test: 
   override: 
     - mocha
